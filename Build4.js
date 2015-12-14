@@ -4,7 +4,7 @@ var ship;
 var shipImage, bulletImage, particleImage,bgImage;
 var MARGIN = 40;
 var gameOver;
-var host = 'http://ruedrion.github.io/DangerZero/audio/';
+//var host = 'http://ruedrion.github.io/DangerZero/audio/';
 //var hit, bgm;
 function setup() {
 createCanvas(windowWidth-10,windowHeight-10);
@@ -81,7 +81,7 @@ function draw() {
   fill(255);
   textAlign(CENTER);
   text("Controls: Arrow Keys + X", width/2, 20);
-    loadSound(host + 'backgound.wav')
+    //loadSound(host + 'backgound.wav')
   drawSprites();
   
 }
@@ -120,7 +120,7 @@ for(var i=0; i<10; i++) {
   p.life = 15;
   }
 //hit.play();
-    loadSound(host +'boom.wav'
+    //loadSound(host +'boom.wav'
 bullet.remove();
 en.remove();
 }
