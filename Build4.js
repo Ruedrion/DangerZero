@@ -88,7 +88,7 @@ function draw() {
 
 function createEn(type, x, y) {
   var a = createSprite(x, y);
-  var img  = loadImage("assets/en"+floor(random(0,3))+".png");
+  var img  = loadImage("assets/en"+floor(random(0,4))+".png");
   a.addImage(img);
   a.setSpeed(2.5-(type/2), random(360));
   a.maxSpeed=1
